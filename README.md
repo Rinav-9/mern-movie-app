@@ -1,16 +1,21 @@
-# React + Vite
+# MERN Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack MERN (MongoDB, Express, React, Node) application that allows users to browse trending movies and search any movie with details like thumbnails, release dates, and ratings.
+The app also features a Top 5 Trending Movies section powered by Appwrite top-searched data.
+## Features
 
-Currently, two official plugins are available:
+Displays Top 5 most searched movies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Trending data is powered through Appwrite (top searched logic)
 
-## React Compiler
+## Movie Search
+Search for any movie
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Shows:
 
-## Expanding the ESLint configuration
+Movie thumbnail/poster
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Release date
+
+Rating
+
