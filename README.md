@@ -1,21 +1,14 @@
-# MERN Movie App
+#MoviesApp
+A modern web application that allows users to explore movies, search titles, and view details such as ratings and release years. Includes a "Top 5 Trending Movies" module powered by Appwrite.
 
-A full-stack MERN (MongoDB, Express, React, Node) application that allows users to browse trending movies and search any movie with details like thumbnails, release dates, and ratings.
-The app also features a Top 5 Trending Movies section powered by Appwrite top-searched data.
-## Features
+##Features
+- Search movies by title  
+- View ratings, release year, and description  
+- Top 5 trending movies (dynamic backend logic)  
+- Fast UI powered by Vite  
+- Fully responsive design  
 
-Displays Top 5 most searched movies
-
-Trending data is powered through Appwrite (top searched logic)
-
-## Movie Search
-Search for any movie
-
-Shows:
-
-Movie thumbnail/poster
-
-Release date
-
-Rating
-
+## Tech Stack
+**Frontend:** React, TailwindCSS, JavaScript  
+**Backend Services:** Appwrite  
+**Build Tool:** Vite  
