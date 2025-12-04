@@ -1,3 +1,4 @@
+```md
 #MoviesApp
 A modern web application that allows users to explore movies, search titles, and view details such as ratings and release years. Includes a "Top 5 Trending Movies" module powered by Appwrite.
 
